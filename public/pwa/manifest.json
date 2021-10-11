@@ -1,0 +1,44 @@
+{
+    "name": "شرکت برنامه نویسی رابا",
+    "short_name": "گروه رابا",
+    "theme_color": "#ff0000",
+    "background_color": "#3367D6",
+    "display": "fullscreen",
+    "start_url": "/index.html?utm_source=homescreen",
+    "dir": "rtl",
+    "lang": "en-US",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "./imagesPWA/maskable_icon_x48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "./imagesPWA/maskable_icon_x72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "./imagesPWA/maskable_icon_x96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "./imagesPWA/maskable_icon_x128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "./imagesPWA/maskable_icon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "./imagesPWA/maskable_icon_x192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        }
+    ]
+}
