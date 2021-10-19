@@ -1,0 +1,15 @@
+@media (min-width:1024px) {
+    .sliding-nav {
+        width: 17%;
+    }
+}
+@media (max-width:1024px) {
+    .sliding-nav {
+        width: 30%;
+    }
+}
+@media (max-width:500px) {
+    .sliding-nav {
+        width: 80%;
+    }
+}
