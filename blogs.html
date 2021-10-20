@@ -32,6 +32,9 @@
     <!-- NORMALIZE -->
     <link rel="stylesheet" href="./public/css/normalize.css">
 
+        <!-- AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!--!For Safari-->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -202,11 +205,11 @@
     <!-- title -->
     <div class="container mt-5">
         <div class="title-body-blogs">
-            <p class="h3"> آخرین مطالب</p>
+            <p class="h3" data-aos="fade-down-left"> آخرین مطالب</p>
         </div>
     </div>
     <!-- title -->
-    <div class="container p-5 my-3 card-blog">
+    <div class="container p-5 my-3 card-blog" data-aos="fade-up">
         <div class="row justify-content-around owl-carousel owl-theme">
             <div class="item  p-2 boxs-card-blog">
                 <div class="image-card-blog">
@@ -402,12 +405,12 @@
     <!-- ! view blog -->
     <!-- title -->
     <div class="container">
-        <div class="title-body-blogs">
+        <div class="title-body-blogs" data-aos="fade-down-left">
             <p class="h3"> بیشترین بازدید </p>
         </div>
     </div>
     <!-- title -->
-    <div class="container p-5 my-2 card-blog">
+    <div class="container p-5 my-2 card-blog" data-aos="fade-up">
         <div class="row justify-content-around owl-carousel owl-theme">
             <div class="item  p-2 boxs-card-blog">
                 <div class="image-card-blog">
@@ -645,9 +648,15 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
+    <!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <!-- FONTAWESOME -->
 <script src="./public/js/all.min.js"></script>
 <!-- me JS  -->
 <script src="./public/js/jsWebsite.js"></script>
 
 </html>
+
