@@ -13,6 +13,9 @@
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="./public/css/bootstrap.rtl.css">
 
+    <!-- responsive -->
+    <link rel="stylesheet" href="./public/css/responsive.css">
+
     <!-- NORMALIZE -->
     <link rel="stylesheet" href="./public/css/normalize.css">
 
@@ -24,16 +27,57 @@
     <nav class="navbar navbar-expand-lg mt-3" dir="ltr">
         <div class="container">
             <a class="navbar-brand" href="#">Raba <span class="span-me">Group</span></a>
-            <ul class="navbar-nav navbar-me">
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="#">درباره ما</a>
-                </li>
-                <li class="nav-item m-auto">
-                    <a class="nav-link" href="#">تماس با ما</a>
-                </li> -->
+            <ul class="navbar-nav navbar-me ">
+                <li id="open"><i class="fa fa-bars"></i></li>
             </ul>
         </div>
     </nav>
+
+    <div class="sliding-nav">
+        <div class="close-navbar" id="close">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="title-sliding-nav m-3">
+            <a class="navbar-brand" href="#">Raba <span class="span-me">Group</span></a>
+        </div>
+        <hr>
+        <div class="items-menu-sliding">
+            <div class="text-menu">
+                <i class="fas fa-home icons-menu"></i>
+                <a href="" class="m-3 h5">صفحه اصلی</a>
+            </div>
+            <div class="chevron-icon-menu">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+        </div>
+        <div class="items-menu-sliding">
+            <div class="text-menu">
+                <i class="fab fa-firefox-browser icons-menu"></i>
+                <a href="" class="m-3 h5">وب سایت آماده</a>
+            </div>
+            <div class="chevron-icon-menu">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+        </div>
+        <div class="items-menu-sliding">
+            <div class="text-menu">
+                <i class="fab fa-blogger icons-menu"></i>
+                <a href="" class="m-3 h5">قالب ها</a>
+            </div>
+            <div class="chevron-icon-menu">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+        </div>
+        <div class="items-menu-sliding">
+            <div class="text-menu">
+                <i class="fas fa-file-alt icons-menu"></i>
+                <a href="" class="m-3 h5">وبلاگ</a>
+            </div>
+            <div class="chevron-icon-menu">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+        </div>
+    </div>
     <!-- navbar end -->
 
     <div class="container">

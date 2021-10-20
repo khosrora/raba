@@ -13,6 +13,9 @@
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="./public/css/bootstrap.rtl.css">
 
+    <!-- responsive -->
+    <link rel="stylesheet" href="./public/css/responsive.css">
+
     <!-- NORMALIZE -->
     <link rel="stylesheet" href="./public/css/normalize.css">
 
@@ -25,16 +28,57 @@
     <nav class="navbar navbar-expand-lg mt-3" dir="ltr">
         <div class="container">
             <a class="navbar-brand" href="#">Raba <span class="span-me">Group</span></a>
-            <ul class="navbar-nav navbar-me">
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="#">درباره ما</a>
-                </li>
-                <li class="nav-item m-auto">
-                    <a class="nav-link" href="#">تماس با ما</a>
-                </li> -->
+            <ul class="navbar-nav navbar-me ">
+                <li id="open"><i class="fa fa-bars"></i></li>
             </ul>
         </div>
     </nav>
+
+    <div class="sliding-nav">
+        <div class="close-navbar" id="close">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="title-sliding-nav m-3">
+            <a class="navbar-brand" href="#">Raba <span class="span-me">Group</span></a>
+        </div>
+        <hr>
+        <div class="items-menu-sliding">
+            <div class="text-menu">
+                <i class="fas fa-home icons-menu"></i>
+                <a href="" class="m-3 h5">صفحه اصلی</a>
+            </div>
+            <div class="chevron-icon-menu">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+        </div>
+        <div class="items-menu-sliding">
+            <div class="text-menu">
+                <i class="fab fa-firefox-browser icons-menu"></i>
+                <a href="" class="m-3 h5">وب سایت آماده</a>
+            </div>
+            <div class="chevron-icon-menu">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+        </div>
+        <div class="items-menu-sliding">
+            <div class="text-menu">
+                <i class="fab fa-blogger icons-menu"></i>
+                <a href="" class="m-3 h5">قالب ها</a>
+            </div>
+            <div class="chevron-icon-menu">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+        </div>
+        <div class="items-menu-sliding">
+            <div class="text-menu">
+                <i class="fas fa-file-alt icons-menu"></i>
+                <a href="./blogs.html" class="m-3 h5">وبلاگ</a>
+            </div>
+            <div class="chevron-icon-menu">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+        </div>
+    </div>
     <!-- navbar end -->
 
     <!-- Send Request start -->
@@ -60,7 +104,7 @@
                     </div>
                     <div class="col">
                         <button type="submit" class="btn btn-danger ">ارسال درخواست</button>
-                        <button type="submit" class="btn btn-dark">بازگشت به صفحه اصلی</button>
+                        <a href="./index.html" class="btn btn-dark text-white">بازگشت به صفحه اصلی</a>
                     </div>
                 </form>
             </div>
@@ -71,7 +115,41 @@
     </div>
     <!-- Send Request end -->
 
-    
+    <!-- footer -->
+    <footer>
+        <div class="footer-dark" dir="rtl">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 item">
+                            <h3>پست الکترونیک</h3>
+                            <ul>
+                                <li><a href="#">khosrora153333@gmail.com</a></li>
+                                <li><a href="#">raba.programming@gmail.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3 item">
+
+                            <h3>شماره های تماس </h3>
+                            <ul>
+                                <li><a href="#">09332839823</a></li>
+                                <li><a href="#">09151498722</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 item text">
+                            <h3>تیم رابا</h3>
+                            <p>
+                                اگر نیاز به یک مشاور در زمینه طراحی سایت ، برنامه نویسی دارید با ما تماس بگیرید تا در
+                                این مسیر همراهتان باشیم
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </footer>
+    <!-- footer -->
 
 
 </body>
@@ -81,6 +159,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
+<script src="./public/js/jsWebsite.js"></script>
 <script src="./public/js/all.min.js"></script>
 
 </html>
