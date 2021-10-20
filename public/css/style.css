@@ -473,3 +473,24 @@ body {
 /* !  <!-- newlist-blog  --> */
 
 /* blog page */
+
+/* paginate */
+
+.pagination {
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #35353f;
+    border-radius: 50%;
+    margin-right: .2rem;
+}
+
+/* paginate */
