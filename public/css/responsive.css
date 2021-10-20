@@ -44,4 +44,17 @@
     .blogs-suggest-cards {
         display: block;
     }
+    .auth_page {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .auth_page .desc_auth_page {
+        display: none;
+    }
+    .auth_page .form_auth_page {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    
 }
