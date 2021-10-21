@@ -557,7 +557,6 @@ body {
     margin-right: 1.5rem;
 }
 
-
 .auth_page .desc_auth_page .menu_auth_page ul li a {
     color: var(--white) !important;
 }
@@ -583,6 +582,66 @@ body {
     font-weight: bold;
 }
 
-
-
 /* auth page */
+
+.user-panel .items-panel .item-panel a {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    padding: .5rem;
+    margin-top: 1rem;
+    transition: all .3s ease-in;
+}
+
+.user-panel .items-panel .item-panel a svg {
+    transform: translateX(5rem);
+    transition: all .5s ease-in;
+    opacity: 0;
+}
+
+.user-panel .items-panel .item-panel a:hover {
+    background-color: var(--red);
+    transition: all .3s ease-in;
+}
+
+.user-panel .items-panel .item-panel a:hover svg {
+    transform: translateX(1rem);
+    transition: all .5s ease-in;
+    opacity: 1;
+}
+
+/* ! detail user */
+
+.detail-user {
+    padding: 3rem;
+}
+
+/* ! detail user */
+
+/* ! edit user */
+
+.edit-user {
+    padding: 3rem;
+}
+
+/* ! edit user */
+
+/* !orders user */
+
+.orders-user {
+    padding: 3rem;
+}
+
+/* !orders user */
+
+/* ! message-user */
+
+.message-user {
+    padding: 3rem   ;
+}
+
+/* ! message-user */
+
+/* user-panel */
