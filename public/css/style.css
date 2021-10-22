@@ -9,7 +9,7 @@
     --background: #45526C;
     --green: #5AA897;
     --red: #dc3545;
-    --pink: #e5a1f8;
+    --gray: #f8f8f8;
     --white: #ffffff;
     --dark: #35353f;
     --orange: #FF6B6B;
@@ -639,9 +639,206 @@ body {
 /* ! message-user */
 
 .message-user {
-    padding: 3rem   ;
+    padding: 3rem;
 }
 
 /* ! message-user */
 
 /* user-panel */
+
+/* title web sites  */
+
+.title-websites-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-websites-page .breadcrumb-websites {
+    opacity: .5;
+}
+
+/* ! search box */
+
+.title-websites {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-select {
+    border: 2px solid #35353f !important;
+}
+
+.title-websites .boxes-title-websites .search form {
+    display: flex;
+    position: relative;
+}
+
+.title-websites .boxes-title-websites .search form input {
+    padding: .5rem;
+    border-radius: .3rem;
+    width: 30rem;
+}
+
+.title-websites .boxes-title-websites .search form button {
+    position: absolute;
+    top: 13%;
+    right: -2rem;
+}
+
+.title-websites .boxes-title-websites .search:hover form button {
+    font-size: 1.2rem;
+    color: var(--red);
+    transition: all .5s ease-in;
+}
+
+/* ! search box */
+
+/* title web sites  */
+
+/*  body website pages  */
+
+/* ! aside web site pages */
+
+.body-websites-page .boxes-tags .title-tags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--gray);
+    padding: .8rem;
+}
+
+.body-websites-page .boxes-tags .title-tags svg {
+    font-size: 1rem;
+    transform: translateX(5rem);
+    opacity: 0;
+    transition: all .5s ease-in;
+}
+
+.body-websites-page .boxes-tags .title-tags:hover svg {
+    opacity: 1;
+    font-size: 1.5rem;
+    transform: translateX(0rem);
+    transition: all .5s ease-in;
+    color: var(--red);
+}
+
+.body-websites-page .boxes-tags .tags-websites {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+    display: none;
+}
+
+.show {
+    display: flex !important;
+}
+
+.body-websites-page .boxes-tags .tags-websites .tag {
+    background-color: var(--gray);
+    padding: .5rem;
+    margin-top: 1rem;
+    margin-right: .5rem;
+    transition: all .1s ease-in;
+}
+
+.body-websites-page .boxes-tags .tags-websites .tag:hover {
+    background-color: var(--red);
+    transition: all .1s ease-in;
+}
+
+.body-websites-page .boxes-tags .tags-websites .tag:hover a {
+    color: var(--white) !important;
+}
+
+.body-websites-page .boxes-tags .tags-websites a span {
+    font-size: .8rem;
+    transition: all .1s ease-in;
+}
+
+/* ! aside web site pages */
+
+/* !websites-box" */
+
+.body-websites-page .websites-box {
+    padding: 2rem;
+}
+
+.body-websites-page .websites-box .box-websites {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-websites-page .websites-box .box-websites .image-box-websites {
+    width: 100%;
+    height: 17rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-websites-page .websites-box .box-websites .image-box-websites img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.caption-box-websites {
+    background-color: rgba(0, 0, 0, 0.267);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: all .5s ease-in;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.body-websites-page .websites-box .box-websites .image-box-websites:hover img {
+    filter: blur(3px);
+}
+
+.body-websites-page .websites-box .box-websites .image-box-websites:hover .caption-box-websites {
+    display: block;
+}
+
+.items-caption {
+    background-color: var(--red);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: .5rem;
+    transform: translateX(50rem);
+    border-radius: 3rem;
+    transition: all .5s ease-in;
+}
+
+.caption-box-websites:hover .items-caption {
+    transform: translateX(22rem);
+}
+
+.body-websites-page .websites-box .box-websites .image-box-websites .caption-box-websites * {
+    color: var(--white) !important;
+}
+
+.body-websites-page .websites-box .box-websites .desc-box-websites {
+    margin-right: .5rem;
+    width: 50%;
+}
+
+.body-websites-page .websites-box .box-websites .desc-box-websites p {
+    line-height: 1.5rem !important;
+}
+
+/* !websites-box" */
+
+/*  body website pages  */

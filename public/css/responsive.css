@@ -35,6 +35,22 @@
     .blogs-suggest-cards {
         display: none;
     }
+    .title-websites .boxes-title-websites .search form input {
+        width: 23rem;
+    }
+    .body-websites-page .websites-box .box-websites {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .body-websites-page .websites-box .box-websites .desc-box-websites {
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .body-websites-page .websites-box .box-websites .desc-box-websites .desc-box{
+        font-size: .6rem;
+    }
 }
 
 @media (max-width:500px) {
@@ -56,5 +72,8 @@
         width: 100%;
         margin-top: 3rem;
     }
-    
+    .title-websites .boxes-title-websites .search form input {
+        width: 17rem;
+        margin-bottom: .5rem;
+    }
 }
