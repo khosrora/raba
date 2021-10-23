@@ -76,4 +76,12 @@
         width: 17rem;
         margin-bottom: .5rem;
     }
+
+    .title-websites-page p {
+        font-size: .7rem;
+    }
+
+    .title-websites-page .breadcrumb-websites a {
+        font-size: .6rem;
+    }
 }
